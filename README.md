@@ -50,7 +50,7 @@ tree.traverse(function (node) {
     console.log(node.level, node.data);
 });
 
-let data = tree.retrieve(tree.bounds);
+let data = tree.retrieve(new new QuadTreeBoundary(0, 0, 200, 200));
 
 console.log(data);
 
