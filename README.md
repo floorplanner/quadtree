@@ -13,7 +13,7 @@ A simple quadtree implementation.
 #### exports
 
 -  `QuadTree` The QuadTree
--  `QuadTreeBoundary` A bounding box to be uses with `QuadTree::retreive`
+-  `QuadTreeBoundary` A bounding box to be used with `QuadTree::retreive`
 
 #### static methods
 
@@ -40,7 +40,7 @@ import {Quadtree} from '@floorplanner/quadtree';
 let width = 800;    // width of the tree
 let height = 600;   // height of the tree
 let capacity = 10;  // capacity of a node
-let max_level = 5;  // recursion depth
+let max_level = 5;  // maximum recursion depth
 
 let tree = QuadTree.create(0, 0, width, height, capacity, max_level);
 
