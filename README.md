@@ -10,16 +10,27 @@ A simple quadtree implementation.
 
 ### api
 
+#### exports
+
+-  `QuadTree` The QuadTree
+-  `QuadTreeBoundary` A bounding box to be uses with `QuadTree::retreive`
+
 #### static methods
 
 -  `QuadTree.create(x, y, width, height, capacity, max_level)` Creates the quadtree.
 
 #### instance methods
 
+##### QuadTree
+
 -  `insert(x, y, data = null)` Inserts an item at the specified coordinates.
 -  `traverse(cb = null)` Traverses the tree, takes an optional callback method.
 -  `retreive(bounds)` Retreives all data inside the specified bounds
- 
+
+##### QuadTreeBoundary
+
+-  `new QuadTreeBoundary(x0, y0, x1, y1)` - Constructor
+
 ### example
 
 ```javascript

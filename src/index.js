@@ -1,5 +1,6 @@
-import {QuadTree} from './quadtree';
+import {QuadTree, QuadTreeBoundary} from './quadtree';
 
 export {
-    QuadTree
+    QuadTree,
+    QuadTreeBoundary
 };
