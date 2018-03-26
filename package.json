@@ -1,5 +1,5 @@
 {
-  "name": "quadtree",
+  "name": "@floorplanner/quadtree",
   "version": "1.0.0",
   "description": "Quadtree implementation",
   "main": "lib/index.js",

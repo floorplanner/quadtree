@@ -12,7 +12,7 @@ A simple quadtree implementation.
 
 ```javascript
 
-import {Quadtree} from 'quadtree';
+import {Quadtree} from '@floorplanner/quadtree';
 
 let width = 800;    // width of the tree
 let height = 600;   // height of the tree
