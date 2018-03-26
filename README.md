@@ -6,7 +6,7 @@ A simple quadtree implementation.
 
 ### install
 
-    npm i quadtree
+    npm i @floorplanner/quadtree
 
 ### example
 
