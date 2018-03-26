@@ -1,0 +1,22 @@
+{
+  "name": "quadtree",
+  "version": "1.0.0",
+  "description": "Quadtree implementation",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib",
+    "test": "mocha -c"
+  },
+  "author": "Tim Knip <tim@floorplanner.com> (http://www.floorplanner.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^5.0.5",
+    "canvas": "^2.0.0-alpha.11"
+  },
+  "dependencies": {
+
+  }
+}
