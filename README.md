@@ -8,6 +8,18 @@ A simple quadtree implementation.
 
     npm i @floorplanner/quadtree
 
+### api
+
+#### static methods
+
+-  `QuadTree.create(x, y, width, height, capacity, max_level)` Creates the quadtree.
+
+#### instance methods
+
+-  `insert(x, y, data = null)` Inserts an item at the specified coordinates.
+-  `traverse(cb = null)` Traverses the tree, takes an optional callback method.
+-  `retreive(bounds)` Retreives all data inside the specified bounds
+ 
 ### example
 
 ```javascript
