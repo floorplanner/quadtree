@@ -13,7 +13,7 @@
     "test": "mocha -c"
   },
   "author": "Tim Knip <tim@floorplanner.com> (http://www.floorplanner.com/)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
