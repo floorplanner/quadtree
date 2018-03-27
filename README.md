@@ -4,6 +4,10 @@ A simple quadtree implementation.
 
 ![alt quadtree](https://content.screencast.com/users/TimKnip/folders/Jing/media/2e40667f-baf3-416c-98ff-ef8ef372271b/2018-03-26_1312.png)
 
+### live demo
+
+[live demo](https://rawgit.com/floorplanner/quadtree/master/html/index.html)
+
 ### install
 
     npm i @floorplanner/quadtree
