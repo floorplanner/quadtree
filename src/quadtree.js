@@ -74,6 +74,10 @@ export class QuadTree {
         this.data = [];
     }
 
+    clear () {
+        this.nodes = [];
+    }
+
     split () {
         let {x0, y0, x1, y1} = this.bounds,
             midX = this.bounds.center.x,
@@ -139,16 +143,22 @@ export class QuadTree {
         }
     }
 
-    retrieve (bounds) {
+    query (bounds) {
         let data = [];
 
         this.traverse(function (node) {
             if (!node.bounds.inside(bounds)) return;
 
-            data = data.concat(node.data);
+            data = data.concat(node.data.filter(item => {
+                return item.inside(bounds);
+            }));
         });
 
         return data;
+    }
+
+    retreive (bounds) {
+        return this.query(bounds);
     }
 
     traverse (cb = null) {

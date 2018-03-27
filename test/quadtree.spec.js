@@ -30,7 +30,7 @@ describe ('quadtree', function () {
                 }
             }
 
-            let data = tree.retrieve(tree.bounds);
+            let data = tree.query(tree.bounds);
 
             expect(data.length).to.be(116172);
 

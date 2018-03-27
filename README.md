@@ -25,7 +25,7 @@ A simple quadtree implementation.
 
 -  `insert(x, y, data = null)` Inserts an item at the specified coordinates.
 -  `traverse(cb = null)` Traverses the tree, takes an optional callback method.
--  `retreive(bounds)` Retreives all data inside the specified bounds
+-  `query(bounds)` Retreives all data inside the specified bounds
 
 ##### QuadTreeBoundary
 
@@ -50,7 +50,7 @@ tree.traverse(function (node) {
     console.log(node.level, node.data);
 });
 
-let data = tree.retrieve(new new QuadTreeBoundary(0, 0, 200, 200));
+let data = tree.query(new new QuadTreeBoundary(0, 0, 200, 200));
 
 console.log(data);
 
